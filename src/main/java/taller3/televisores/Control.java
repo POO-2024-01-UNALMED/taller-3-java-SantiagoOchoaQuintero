@@ -49,7 +49,7 @@ public class Control {
 	public void setTv(TV tv) {
 		this.tv = tv;
 	}
-	public TV getTv(TV tv) {
+	public TV getTv() {
 		return this.tv;
 	}
 }
