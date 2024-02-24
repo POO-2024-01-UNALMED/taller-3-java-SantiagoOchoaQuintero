@@ -9,8 +9,8 @@ public class TV {
 	private Control control;
 	private static int numTV;
 	
-	static public void setNumTV(int numTV) {
-		this.numTV = numTV;
+	static public void setNumTV(int num) {
+		numTV = num;
 	}
 	static public int getNumTV() {
 		return numTV;
