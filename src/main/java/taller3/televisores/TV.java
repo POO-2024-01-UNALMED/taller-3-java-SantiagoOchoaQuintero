@@ -9,10 +9,10 @@ public class TV {
 	private Control control;
 	private int numTV;
 	
-	public void setnumTV(int numTV) {
+	public void setNumTV(int numTV) {
 		this.numTV = numTV;
 	}
-	public int getnumTV() {
+	public int getNumTV() {
 		return this.numTV;
 	}	
 	
