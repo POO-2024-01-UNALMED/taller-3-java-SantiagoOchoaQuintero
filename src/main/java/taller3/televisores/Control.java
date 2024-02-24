@@ -1,19 +1,19 @@
-package televisores;
+package taller3.televisores;
 
 public class Control {
 	public TV tv;
 	
-	public void enlazar(TV tv) {
+	public void enlazar() {
 		this.tv = tv;
 		tv.control = this.control;
 	}
-	public void turnOn(Tv tv) {
+	public void turnOn() {
 		this.tv.estado = true;
 	}
-	public void turnOff(Tv tv) {
+	public void turnOff()) {
 		this.tv.estado = false;
 	}
-	public void canalUp(Tv tv) {
+	public void canalUp() {
 		if(this.tv.estado == True) {
 		if(this.tv.canal==120) {
 			;
@@ -24,7 +24,7 @@ public class Control {
 		}
 
 	}
-	public void canalDown(Tv tv) {
+	public void canalDown() {
 		if(this.tv.estado == True) {
 		if(this.tv.canal==1) {
 			;
@@ -34,7 +34,7 @@ public class Control {
 		}
 	}
 	
-	public void volumenDown(Tv tv) {
+	public void volumenDown() {
 		if(this.tv.estado == True) {
 			if(this.tv.volumen <= 7) {
 				this.tv.volumen--;
@@ -42,7 +42,7 @@ public class Control {
 		}
 		
 	}
-	public void voluemUp(Tv tv) {
+	public void voluemUp() {
 		if(this.tv.estado == True) {
 			if(this.tv.volumen >= 0) {
 				this.tv.volumen++;
