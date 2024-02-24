@@ -7,13 +7,13 @@ public class Control {
 		this.tv = tv;
 		tv.control = this.control;
 	}
-	public void turnOn() {
+	public void turnOn(Tv tv) {
 		this.tv.estado = true;
 	}
-	public void turnOff() {
+	public void turnOff(Tv tv) {
 		this.tv.estado = false;
 	}
-	public void canalUp() {
+	public void canalUp(Tv tv) {
 		if(this.tv.estado == True) {
 		if(this.tv.canal==120) {
 			;
@@ -24,7 +24,7 @@ public class Control {
 		}
 
 	}
-	public void canalDown() {
+	public void canalDown(Tv tv) {
 		if(this.tv.estado == True) {
 		if(this.tv.canal==1) {
 			;
@@ -34,15 +34,15 @@ public class Control {
 		}
 	}
 	
-	public void volumenDown() {
+	public void volumenDown(Tv tv) {
 		if(this.tv.estado == True) {
 			if(this.tv.volumen <= 7) {
-				this.volumen--;
+				this.tv.volumen--;
 			}
 		}
 		
 	}
-	public void voluemUp() {
+	public void voluemUp(Tv tv) {
 		if(this.tv.estado == True) {
 			if(this.tv.volumen >= 0) {
 				this.tv.volumen++;
@@ -58,7 +58,7 @@ public class Control {
 	public void setTv(TV tv) {
 		this.tv = tv;
 	}
-	public TV getTv() {
+	public TV getTv(Tv tv) {
 		return this.tv;
 	}
 }
