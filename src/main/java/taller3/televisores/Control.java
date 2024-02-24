@@ -10,7 +10,7 @@ public class Control {
 	public void turnOn() {
 		this.tv.estado = true;
 	}
-	public void turnOff()) {
+	public void turnOff(){
 		this.tv.estado = false;
 	}
 	public void canalUp() {
