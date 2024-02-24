@@ -49,13 +49,19 @@ public class TV {
 	}	
 	
 	public void setVolumen(int volumen) {
-		this.volumen = volumen;
+		if(this.estado == true){
+            this.volumen = volumen;
+        }
+
 	}
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 	public void setCanal(int canal) {
-		this.canal = canal;
+		if(this.estado == true){
+            this.canal = canal;
+        }
+
 	}
 	
 	
