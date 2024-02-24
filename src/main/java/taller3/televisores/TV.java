@@ -98,7 +98,7 @@ public class TV {
 		}
 		
 	}
-	public void voluemUp() {
+	public void volumenUp() {
 		if(this.estado == true) {
 			if(this.volumen >= 0) {
 				this.volumen++;
