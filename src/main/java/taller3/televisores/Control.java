@@ -3,7 +3,7 @@ package taller3.televisores;
 public class Control {
 	public TV tv;
 	
-	public void enlazar() {
+	public void enlazar(TV tv) {
 		this.tv = tv;
 		//tv.control = this.control;
 	}
@@ -14,7 +14,7 @@ public class Control {
 		this.tv.turnOff();
 	}
 	public void canalUp() {
-		if(this.tv.getEstado() == True) {
+		if(this.tv.getEstado() == true) {
 		if(this.tv.getCanal()==120) {
 			;
 		}
@@ -25,7 +25,7 @@ public class Control {
 
 	}
 	public void canalDown() {
-		if(this.tv.getEstado() == True) {
+		if(this.tv.getEstado() == true) {
 		if(this.tv.getCanal()==1) {
 			;
 		}else {
