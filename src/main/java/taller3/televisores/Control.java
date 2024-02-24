@@ -35,7 +35,7 @@ public class Control {
 	}
 	
 	public void volumenDown() {
-		this.tv.volumendDown();
+		this.tv.volumenDown();
 	}
 	public void volumenUp() {
 		this.tv.volumenUp();
