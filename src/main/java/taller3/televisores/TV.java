@@ -7,12 +7,12 @@ public class TV {
 	private boolean estado;
 	private int volumen = 1;
 	private Control control;
-	private int numTV;
+	private static int numTV;
 	
-	static public void setNumTV(int num) {
+	public void setNumTV(int num) {
 		numTV = num;
 	}
-	static public int getNumTV() {
+	public int getNumTV() {
 		return numTV;
 	}	
 	
