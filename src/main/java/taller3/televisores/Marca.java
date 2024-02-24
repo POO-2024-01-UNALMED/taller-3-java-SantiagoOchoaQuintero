@@ -3,7 +3,7 @@ public class Marca {
 	
 	private String nombre;
 	
-	public Marca(nombre) {
+	public Marca(String nombre) {
 		this.nombre = nombre;
 	}
 	
@@ -11,7 +11,7 @@ public class Marca {
 		return this.nombre;
 	}
 	
-	public setNombre(nombre){
+	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
 }
