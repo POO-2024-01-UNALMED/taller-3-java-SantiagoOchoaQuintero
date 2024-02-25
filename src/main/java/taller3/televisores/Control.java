@@ -14,24 +14,11 @@ public class Control {
 		this.tv.turnOff();
 	}
 	public void canalUp() {
-		if(this.tv.getEstado() == true) {
-		if(this.tv.getCanal()==120) {
-			;
-		}
-		else {
-			this.tv.canalUp();
-		}
-		}
+		this.tv.canalUp();
 
 	}
 	public void canalDown() {
-		if(this.tv.getEstado() == true) {
-		if(this.tv.getCanal()==1) {
-			;
-		}else {
-			this.tv.canalDown();	
-		}
-		}
+		this.tv.canalDOwn();
 	}
 	
 	public void volumenDown() {
