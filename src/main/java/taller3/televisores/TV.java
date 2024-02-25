@@ -1,5 +1,3 @@
-package taller3.televisores;
-
 public class TV {
 	private Marca marca;
 	private int canal = 1;
@@ -50,7 +48,7 @@ public class TV {
 	
 	public void setVolumen(int volumen) {
 		if(this.estado == true){
-			if (this.volumen <= 0 && this.volumen >= 7) {
+			if (this.volumen >= 0 && this.volumen <= 7) {
 				this.volumen = volumen;
 			}
            
