@@ -18,7 +18,7 @@ public class Control {
 
 	}
 	public void canalDown() {
-		this.tv.canalDOwn();
+		this.tv.canalDown();
 	}
 	
 	public void volumenDown() {
