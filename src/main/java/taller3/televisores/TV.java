@@ -19,6 +19,7 @@ public class TV {
 	public TV(Marca marca, boolean estado){
 		this.marca = marca;
 		this.estado = estado;
+		numTV++;
 	}
 	
 	
